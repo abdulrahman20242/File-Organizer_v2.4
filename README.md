@@ -4,7 +4,7 @@ A powerful and user-friendly desktop application built with Python and PySide6 t
 
 Tired of cluttered "Downloads" or "Desktop" folders? Sortify automates the cleaning process with a rich set of features, a multi-language interface, and robust safety mechanisms like Undo and Dry-run mode.
 
-![Sortify Screenshot](https://raw.githubusercontent.com/abdulrahman20242/Sortify/main/Capture.PNG)
+![Sortify Screenshot](https://raw.githubusercontent.com/abdulrahman20242/File-Organizer_v2.3/main/Capture.PNG)
 
 ---
 
@@ -65,8 +65,8 @@ Tired of cluttered "Downloads" or "Desktop" folders? Sortify automates the clean
 
 1.  Clone the repository and navigate into the project directory:
     ```bash
-    git clone https://github.com/abdulrahman20242/Sortify.git
-    cd Sortify
+    git clone https://github.com/abdulrahman20242/File-Organizer_v2.4.git
+    cd File-Organizer_v2.4
     ```
 
 2.  **Create and activate a virtual environment (Recommended):**
@@ -235,4 +235,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 
 ---
+
 
