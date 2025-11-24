@@ -1,40 +1,81 @@
+# 📝 ملف README.md الكامل
+
+```markdown
 # 📂 Sortify - Advanced File Organizer
 
 A powerful and user-friendly desktop application built with Python and PySide6 to intelligently sort your files into clean, organized folders.
 
 Tired of cluttered "Downloads" or "Desktop" folders? Sortify automates the cleaning process with a rich set of features, a multi-language interface, and robust safety mechanisms like Undo and Dry-run mode.
 
-![Sortify Screenshot](https://raw.githubusercontent.com/abdulrahman20242/File-Organizer_v2.4/main/Capture.PNG)
+![Sortify Screenshot](https://raw.githubusercontent.com/abdulrahman20242/Sortify/main/Capture.PNG)
+
+---
+
+## ✨ What's New in v2.5
+
+- 🎨 **Enhanced Category Editor** - Completely redesigned with advanced features
+- 🔍 **Auto-Detect Extensions** - Scan any folder to discover new file types
+- 📋 **Bulk Add Extensions** - Add multiple extensions at once
+- 🔎 **Search & Filter** - Quickly find categories and extensions
+- 🎯 **Skip Uncategorized Files** - New option to skip files not in any category
+- 📥 **Import/Export Settings** - Backup and share your category configurations
+- 🌈 **Color-Coded Categories** - Visual identification for each category
+- ⌨️ **Keyboard Shortcuts** - Faster workflow with hotkeys
+- 🌐 **Default English Language** - App now starts in English by default
 
 ---
 
 ## 🚀 Features
 
 ### Core Functionality
-*   **Multiple Organization Modes:**
-    *   **By Type:** Groups files into folders like `Images`, `Videos`, `Documents`.
-    *   **By Date (Month):** Sorts files into `Year/Month` folders (e.g., `2024/10-October`).
-    *   **By Date (Day):** Sorts files into `Year/Month/Day` folders (e.g., `2024/10/16`).
-    *   **By Size:** Categorizes files as `Small`, `Medium`, or `Large`.
-    *   **By First Letter:** Groups files into alphabetical folders (`A`, `B`, `C`...).
-*   **Flexible Actions:** Choose to **Move** original files or create a **Copy**.
-*   **Smart Conflict Resolution:** Automatically `Rename`, `Overwrite`, or `Skip` files if they already exist in the destination.
-*   **Recursive Processing:** Option to include all files from subdirectories.
+
+| Feature | Description |
+|---------|-------------|
+| **By Type** | Groups files into folders like `Images`, `Videos`, `Documents` |
+| **By Date (Month)** | Sorts files into `Year/Month` folders (e.g., `2024/10-October`) |
+| **By Date (Day)** | Sorts files into `Year/Month/Day` folders (e.g., `2024/10/16`) |
+| **By Size** | Categorizes files as `Small`, `Medium`, or `Large` |
+| **By First Letter** | Groups files into alphabetical folders (`A`, `B`, `C`...) |
+| **By Name** | Creates a folder for each file using its name |
+
+- **Flexible Actions:** Choose to **Move** original files or create a **Copy**
+- **Smart Conflict Resolution:** Automatically `Rename`, `Overwrite`, or `Skip` duplicate files
+- **Recursive Processing:** Option to include all files from subdirectories
+- **Skip Uncategorized:** Option to skip files with unknown extensions instead of moving to "Others"
+
+### 🎨 Enhanced Category Editor (NEW!)
+
+The completely redesigned Category Editor includes:
+
+| Feature | Description | Shortcut |
+|---------|-------------|----------|
+| **Auto-Detect** | Scan folders to discover new extensions | - |
+| **Quick Add** | Add extensions by pressing Enter | `Enter` |
+| **Bulk Add** | Add multiple extensions at once | - |
+| **Move Extensions** | Transfer extensions between categories | Right-click |
+| **Import/Export** | Backup and restore settings | `Ctrl+I` / `Ctrl+E` |
+| **Search & Filter** | Find categories and extensions quickly | `Ctrl+F` |
+| **Color Coding** | Visual identification for categories | Right-click |
+| **Reset to Defaults** | Restore original categories | - |
+| **Help Dialog** | Comprehensive usage guide | `F1` |
 
 ### User Experience & Interface
-*   **✨ Graphical Category Editor:** An intuitive interface to add, rename, or remove categories and manage their file extensions **without ever touching a config file**.
-*   **Modern GUI:** Clean and responsive interface built with PySide6.
-*   **Real-time Progress:** A progress bar and live log ensure the app never freezes during long operations.
-*   **Detailed Results Table:** See the status of each file (Success, Skipped, Failed) in a clear, color-coded table.
-*   **Multi-language Support:** Switch between **English** and **Arabic** on the fly.
-*   **Themes:** Instantly switch between **Light** and **Dark** modes.
-*   **Drag & Drop:** Easily drop your source folder into the path input field.
+
+- **Modern GUI:** Clean and responsive interface built with PySide6
+- **Real-time Progress:** Progress bar and live log for long operations
+- **Detailed Results Table:** Color-coded status for each file (Success, Skipped, Failed)
+- **Multi-language Support:** Switch between **English** and **Arabic** instantly
+- **Themes:** Switch between **Light** and **Dark** modes
+- **Drag & Drop:** Drop folders directly into the path input field
 
 ### Safety & Customization
-*   **↩️ Undo Last Operation:** A critical safety feature! Revert the entire last organization process with a single click.
-*   **🛡️ Dry-run Mode:** A simulation mode that shows you what will happen **without touching your files**, allowing you to preview the result safely.
-*   **💾 Profiles:** Save and load your favorite settings (e.g., "Sort Downloads" vs. "Backup Photos") for quick reuse.
-*   **Easy Windows Launch:** Includes a `Sortify.bat` script for double-click execution.
+
+| Feature | Description |
+|---------|-------------|
+| ↩️ **Undo** | Revert the entire last operation with one click |
+| 🛡️ **Dry-run** | Preview what will happen without touching files |
+| 💾 **Profiles** | Save and load favorite settings for quick reuse |
+| 🚫 **Skip Unknown** | Skip uncategorized files instead of moving to Others |
 
 ---
 
@@ -42,62 +83,128 @@ Tired of cluttered "Downloads" or "Desktop" folders? Sortify automates the clean
 
 **Prerequisites:** Python 3.9+
 
-1.  Clone the repository and navigate into the project directory:
-    ```bash
-    git clone https://github.com/abdulrahman20242/File-Organizer_v2.4.git
-    cd File-Organizer_v2.4
-    ```
+### Quick Install
 
-2.  **Create and activate a virtual environment (Recommended):**
-    *   On Windows:
-        ```bash
-        python -m venv venv
-        .\venv\Scripts\activate
-        ```
-    *   On macOS/Linux:
-        ```bash
-        python3 -m venv venv
-        source venv/bin/activate
-        ```
+```bash
+# Clone the repository
+git clone https://github.com/abdulrahman20242/Sortify.git
+cd Sortify
 
-3.  Install the required libraries using pip:
-    ```bash
-    pip install -r requirements.txt
-    ```
+# Create virtual environment (Recommended)
+python -m venv venv
+
+# Activate virtual environment
+# Windows:
+.\venv\Scripts\activate
+# macOS/Linux:
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### Dependencies
+
+```
+PySide6>=6.5.0
+QtAwesome>=1.2.0
+pyqtdarktheme>=2.1.0
+```
 
 ---
 
 ## 🖥️ Usage
 
-You can run the application in two ways:
+### Running the Application
 
-1.  **From the terminal (all platforms):**
-    (Make sure your virtual environment is active)
-    ```bash
-    python file_organizer_gui.py
-    ```
+**Terminal (all platforms):**
+```bash
+python file_organizer_gui.py
+```
 
-2.  **On Windows (easy method):**
-    Simply double-click the **`Sortify.bat`** file. This script automatically launches the application.
+**Windows (easy method):**
+Double-click **`Sortify.bat`**
 
-**How it works:**
-1.  **Select Source & Destination:** Use the "Browse" buttons or drag-and-drop a folder. If the destination is empty, an `Organized_Files` folder will be created inside the source.
-2.  **Choose Your Options:** Select the organization mode, action (move/copy), and conflict policy.
-3.  **Run:** Click the "Run" button to start.
-4.  **Monitor:** Watch the progress bar and view live logs or the color-coded results table.
-5.  **Undo (if needed):** If you're not happy, just click "Undo".
+### Basic Workflow
+
+1. **Select Source & Destination**
+   - Use "Browse" buttons or drag-and-drop
+   - Leave destination empty to create `Organized_Files` inside source
+
+2. **Choose Options**
+   - Organization mode (Type, Date, Size, etc.)
+   - Action (Move or Copy)
+   - Conflict policy (Rename, Skip, Overwrite)
+   - ☑️ Check "Skip uncategorized files" to ignore unknown extensions
+
+3. **Run & Monitor**
+   - Click "Run" to start
+   - Watch progress bar and live logs
+   - View color-coded results table
+
+4. **Undo if Needed**
+   - Click "Undo" to revert all changes
+
+### Keyboard Shortcuts
+
+| Shortcut | Action |
+|----------|--------|
+| `Ctrl+R` | Run organizer |
+| `Ctrl+Q` | Exit application |
+| `Ctrl+N` | New category (in editor) |
+| `Ctrl+F` | Search (in editor) |
+| `Ctrl+S` | Save & Close (in editor) |
+| `Ctrl+E` | Export settings |
+| `Ctrl+I` | Import settings |
+| `F1` | Help |
+| `Delete` | Delete selected item |
 
 ---
 
 ## ⚙️ Customization
 
-The easiest way to customize file categories is through the built-in **Category Editor**. You can access it from the `Edit -> Manage Categories` menu or the toolbar.
+### Using the Category Editor (Recommended)
 
-For advanced users, you can also manually edit the **`categories.json`** file. For example, to add `.eps` files to the "Images" category:
+Access via `Edit → Manage Categories` or toolbar button.
+
+**Features:**
+- ➕ Add/Remove categories and extensions
+- 🔍 Auto-detect extensions from any folder
+- 📋 Bulk add multiple extensions
+- ↔️ Move extensions between categories
+- 🎨 Change category colors
+- 📥 Import/Export configurations
+- 🔄 Reset to defaults
+
+### Manual Configuration
+
+Edit **`categories.json`** directly:
+
 ```json
 {
-  "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".webp", ".heic", ".eps"],
-  "Videos": [...]
+  "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp", ".svg"],
+  "Videos": [".mp4", ".mkv", ".avi", ".mov", ".wmv"],
+  "Documents": [".pdf", ".docx", ".doc", ".txt", ".xlsx"],
+  "Audio": [".mp3", ".wav", ".flac", ".aac", ".ogg"],
+  "Archives": [".zip", ".rar", ".7z", ".tar", ".gz"],
+  "Code": [".py", ".js", ".html", ".css", ".json"],
+  "Others": []
+}
+```
+
+### Category Colors
+
+Colors are stored in **`category_colors.json`**:
+
+```json
+{
+  "Images": "#4CAF50",
+  "Videos": "#2196F3",
+  "Audio": "#9C27B0",
+  "Documents": "#FF9800",
+  "Archives": "#795548",
+  "Code": "#00BCD4",
+  "Others": "#9E9E9E"
 }
 ```
 
@@ -105,43 +212,117 @@ For advanced users, you can also manually edit the **`categories.json`** file. F
 
 ## 🧪 Running Tests
 
-This project includes a comprehensive test suite to ensure the core logic is working correctly.
+### Install Test Dependencies
 
-1.  Install the development dependencies:
-    ```bash
-    pip install -r requirements-dev.txt
-    ```
-2.  Run pytest from the project's root directory:
-    ```bash
-    pytest -v
-    ```
-    ```bash
-    pytest test_organizer.py -v
-    ```
-    ```bash
-    pytest test_organizer.py -q
-    ```
-    ```bash
-    pip install pytest-cov
+```bash
+pip install pytest pytest-cov
+```
+
+### Run Tests
+
+```bash
+# Run all tests
+pytest test_organizer.py -v
+
+# Quick summary
+pytest test_organizer.py -q
+
+# With coverage report
 pytest test_organizer.py --cov=file_organizer --cov-report=html
-    ```
-    ```bash
-    pytest test_organizer.py::TestUndo -v
-    ```
-    ```bash
-    pytest test_organizer.py::TestUndo::test_undo_move_operation -v
-    ```
+
+# Run specific test class
+pytest test_organizer.py::TestOrganizeByType -v
+
+# Run specific test
+pytest test_organizer.py::TestUndo::test_undo_move_operation -v
+```
+
+### Test Coverage
+
+The test suite includes **69 tests** covering:
+- ✅ All organization modes
+- ✅ Conflict policies
+- ✅ Undo functionality
+- ✅ Edge cases
+- ✅ Error handling
 
 ---
 
-## 📒 Project Structure
+## 📁 Project Structure
 
-*   `file_organizer_gui.py`: The main file for the PySide6 graphical user interface.
-*   `file_organizer.py`: Contains all the backend logic for file operations (sorting, undo, etc.).
-*   `test_organizer.py`: The `pytest` test suite for the backend logic.
-*   `Sortify.bat`: A convenience script for launching the GUI on Windows.
-*   `translations.json`: Stores text strings for multi-language support.
-*   `categories.json`: Default and user-customizable file type categories.
-*   `requirements.txt`: Main dependencies required to run the application.
-*   `requirements-dev.txt`: Extra dependencies for development and testing.
+```
+Sortify/
+├── file_organizer.py        # Core backend logic
+├── file_organizer_gui.py    # Main PySide6 GUI
+├── category_editor.py       # Enhanced category editor dialog
+├── test_organizer.py        # Pytest test suite (69 tests)
+├── translations.json        # Multi-language strings (EN/AR)
+├── categories.json          # File type categories (auto-generated)
+├── category_colors.json     # Category colors (auto-generated)
+├── settings.json            # User settings (auto-generated)
+├── profiles.json            # Saved profiles (auto-generated)
+├── undo.log                 # Undo operation log (auto-generated)
+├── requirements.txt         # Main dependencies
+├── requirements-dev.txt     # Development dependencies
+├── Sortify.bat              # Windows launcher
+└── README.md                # This file
+```
 
+---
+
+## 🔧 Troubleshooting
+
+### Common Issues
+
+| Issue | Solution |
+|-------|----------|
+| App doesn't start | Ensure Python 3.9+ and all dependencies installed |
+| Theme not working | Install `pyqtdarktheme`: `pip install pyqtdarktheme` |
+| Icons not showing | Install `QtAwesome`: `pip install qtawesome` |
+| Permission error | Run as administrator or check folder permissions |
+
+### Reset Application
+
+Delete these files to reset:
+- `settings.json` - Reset all settings
+- `categories.json` - Reset categories to defaults
+- `profiles.json` - Remove saved profiles
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 👨‍💻 Author
+
+**Abdulrahman** - [GitHub Profile](https://github.com/abdulrahman20242)
+
+---
+
+## 🙏 Acknowledgments
+
+- [PySide6](https://doc.qt.io/qtforpython/) - Qt for Python
+- [QtAwesome](https://github.com/spyder-ide/qtawesome) - Iconic fonts for PyQt/PySide
+- [pyqtdarktheme](https://github.com/5yutan5/PyQtDarkTheme) - Dark theme support
+
+---
+
+<p align="center">
+  Made with ❤️ for organizing chaos into order
+</p>
+```
