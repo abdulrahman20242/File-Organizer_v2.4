@@ -232,12 +232,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 *   [PySide6](https://doc.qt.io/qtforpython/) - Qt for Python
 *   [QtAwesome](https://github.com/spyder-ide/qtawesome) - Iconic fonts for PyQt/PySide
 *   [pyqtdarktheme](https://github.com/5yutan5/PyQtDarkTheme) - Dark theme support
-```
-
----
-
-
-
-
-
-
