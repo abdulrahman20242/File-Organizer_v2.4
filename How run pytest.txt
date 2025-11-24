@@ -1,0 +1,13 @@
+pytest test_organizer.py -v
+# تقرير مختصر
+pytest test_organizer.py -q
+
+# مع تغطية الكود
+pip install pytest-cov
+pytest test_organizer.py --cov=file_organizer --cov-report=html
+
+# تشغيل فئة معينة فقط
+pytest test_organizer.py::TestUndo -v
+
+# تشغيل اختبار واحد
+pytest test_organizer.py::TestUndo::test_undo_move_operation -v
