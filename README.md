@@ -8,7 +8,7 @@ Tired of cluttered "Downloads" or "Desktop" folders? Sortify automates the clean
 
 ---
 
-## ✨ What's New in v2.5
+## ✨ What's New in v2.4
 
 *   **🎨 Enhanced Category Editor:** Completely redesigned with Auto-Detect, Bulk Add, Search, Import/Export, and Color Coding features.
 *   **🎯 Skip Uncategorized Files:** New option to skip files with extensions not in any category instead of moving them to "Others".
@@ -235,6 +235,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 
 ---
+
 
 
 
