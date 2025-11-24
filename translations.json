@@ -1,0 +1,322 @@
+{
+  "en": {
+    "title": "File Organizer Pro",
+    "language": "Language:",
+    "source": "Source Folder:",
+    "browse": "Browse",
+    "destination": "Destination Folder:",
+    "mode": "Mode:",
+    "action": "Action:",
+    "conflict": "Conflict Policy:",
+    "recursive": "Include Subfolders",
+    "dry_run": "Dry-run (Simulate)",
+    "skip_unknown": "Skip uncategorized files",
+    "skip_unknown_tooltip": "Skip files with extensions not in any category (instead of moving to Others)",
+    "run": "Run",
+    "cancel": "Cancel",
+    "open_dest": "Open Destination",
+    "log": "Log",
+    "scanning": "Scanning for files...",
+    "starting": "Organizing...",
+    "cancelling": "Cancelling...",
+    "cancelled": "Operation Cancelled.",
+    "done": "Done!",
+    "ready": "Ready",
+    "error": "Error",
+    "invalid_source": "The source folder is invalid or does not exist.",
+    "summary": "Summary -> Total: {total}, Succeeded: {succeeded}, Skipped: {skipped}, Failed: {failed}",
+    "manage_categories": "Manage Categories",
+    "undo": "Undo",
+    "categories": "Categories",
+    "extensions": "Extensions",
+    "add": "Add",
+    "rename": "Rename",
+    "remove": "Remove",
+    "save_and_close": "Save & Close",
+    "add_category": "Add New Category",
+    "category_name": "Category Name:",
+    "rename_category": "Rename Category",
+    "new_name": "New Name:",
+    "confirm_delete": "Confirm Deletion",
+    "confirm_delete_cat_msg": "Are you sure you want to delete the category '{0}' and all its extensions?",
+    "add_extension": "Add New Extension",
+    "extension_name": "Extension (e.g. .txt):",
+    "success": "Success",
+    "categories_saved": "Categories saved successfully.",
+    "categories_save_error": "Error saving categories.",
+    "results": "Results",
+    "original_file": "File Name",
+    "new_path": "Destination Path",
+    "status": "Status",
+    "confirm_undo": "Confirm Undo",
+    "confirm_undo_msg": "This will attempt to move files from the last operation back to their original locations. This cannot be undone. Continue?",
+    "undo_complete": "Undo Complete",
+    "undo_summary": "Undo Summary -> Total: {total}, Succeeded: {succeeded}, Failed: {failed}",
+    "source_dest_title": "Source & Destination",
+    "options_title": "Options",
+    "exit": "Exit",
+    "source_tooltip": "Select or drag and drop the folder you want to organize.",
+    "dest_tooltip": "Optional. Leave empty to create an 'Organized_Files' folder inside the source.",
+    "run_tooltip": "Start the organization process (Ctrl+R)",
+    "cancel_tooltip": "Stop the current process",
+    "mode_tooltip": "Choose the method for organizing files.",
+    "action_tooltip": "Choose what to do with the original files.",
+    "conflict_tooltip": "Decide what to do if a file with the same name already exists.",
+    "file_menu": "&File",
+    "edit_menu": "&Edit",
+    "view_menu": "&View",
+    "profiles_menu": "&Profiles",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "save_profile": "Save Current as Profile...",
+    "manage_profiles": "Manage Profiles...",
+    "profile_name_prompt": "Enter a name for this profile:",
+    "manage_profiles_title": "Manage Profiles",
+    "confirm_delete_profile_msg": "Are you sure you want to delete the profile '{0}'?",
+    "schedule": "Schedule...",
+    "schedule_info_title": "Feature Not Available",
+    "schedule_info_msg": "Automatic scheduling and folder monitoring is a planned future feature.",
+    "open_file": "Open File",
+    "open_folder": "Open Containing Folder",
+    "mode_type": "By Type",
+    "mode_type_desc": "Groups files into folders based on their category (e.g., Images, Videos).",
+    "mode_name": "By Name",
+    "mode_name_desc": "Creates a folder for each file, named after the file itself (without extension).",
+    "mode_date": "By Date",
+    "mode_date_desc": "Groups files into folders by year and month (e.g., 2023/10-October).",
+    "mode_size": "By Size",
+    "mode_size_desc": "Groups files into folders like 'Small', 'Medium', and 'Large'.",
+    "mode_first_letter": "By First Letter",
+    "mode_first_letter_desc": "Groups files into folders based on the first letter of their name (A, B, C...).",
+    "mode_day": "By Day",
+    "mode_day_desc": "Groups files into folders by year, month, and day (e.g., 2023/10/26).",
+    "action_move": "Move",
+    "action_copy": "Copy",
+    "conflict_rename": "Rename",
+    "conflict_skip": "Skip",
+    "conflict_overwrite": "Overwrite",
+    "auto_detect": "Auto-Detect",
+    "auto_detect_tip": "Scan a folder to discover new file extensions",
+    "bulk_add": "Bulk Add",
+    "bulk_add_tip": "Add multiple extensions at once",
+    "bulk_add_title": "Bulk Add Extensions",
+    "bulk_add_info": "Enter extensions (one per line or comma-separated):",
+    "import": "Import",
+    "export": "Export",
+    "reset_defaults": "Reset",
+    "reset_defaults_tip": "Reset to default categories",
+    "search_placeholder": "Search categories and extensions... (Ctrl+F)",
+    "quick_add_placeholder": "Type extension and press Enter...",
+    "move_to": "Move to...",
+    "select_category_first": "Please select a category first!",
+    "extension_exists": "Extension already exists in this category!",
+    "extension_exists_other": "Extension Exists",
+    "move_extension_msg": "Extension {0} exists in '{1}'. Move it to '{2}'?",
+    "no_other_categories": "No other categories available!",
+    "select_target_category": "Select target category:",
+    "auto_detect_title": "Auto-Detect Extensions",
+    "folder": "Folder:",
+    "select_folder": "Select a folder to scan...",
+    "include_subfolders": "Include subfolders",
+    "show_new_only": "Show new extensions only",
+    "scan": "Scan",
+    "scan_progress": "Scanned {current} of {total} files...",
+    "scan_complete": "Scan complete!",
+    "detected_extensions": "Detected Extensions",
+    "filter": "Filter:",
+    "type_to_filter": "Type to filter...",
+    "select_all": "Select All",
+    "deselect_all": "Deselect All",
+    "add_selected": "Add Selected",
+    "extension_stats": "Total: {total} | New: {new}",
+    "extensions_found": "{count} extensions found",
+    "add_all": "Add All",
+    "help_title": "Category Editor Help",
+    "quick_start": "Quick Start",
+    "shortcuts": "Shortcuts",
+    "tips": "Tips",
+    "close": "Close",
+    "change_color": "Change Color",
+    "confirm_reset": "Confirm Reset",
+    "confirm_reset_msg": "This will reset all categories to defaults. Continue?",
+    "import_settings": "Import Settings",
+    "export_settings": "Export Settings",
+    "settings_imported": "Settings imported successfully!",
+    "settings_exported": "Settings exported successfully!",
+    "import_error": "Failed to import: {0}",
+    "export_error": "Failed to export: {0}",
+    "save_error": "Failed to save: {0}",
+    "statistics": "📊 {cats} categories | {exts} extensions",
+    "showing_of": "Showing {count} of {total}",
+    "extension_count": "{count} extensions",
+    "extensions_added": "Added {0} extensions",
+    "select_category": "Select Category",
+    "add_extensions_to": "Add extensions to:",
+    "invalid_folder": "Please select a valid folder",
+    "delete": "Delete",
+    "help": "Help",
+    "category_exists": "Category already exists!",
+    "cannot_delete_others": "Cannot delete 'Others' category. It's required for uncategorized files."
+  },
+  "ar": {
+    "title": "منظم الملفات الإحترافي",
+    "language": "اللغة:",
+    "source": "المجلد المصدر:",
+    "browse": "تصفح",
+    "destination": "مجلد الوجهة:",
+    "mode": "وضع التنظيم:",
+    "action": "الإجراء:",
+    "conflict": "عند تكرار الملف:",
+    "recursive": "يشمل المجلدات الفرعية",
+    "dry_run": "محاكاة (بدون تغيير)",
+    "skip_unknown": "تخطي الملفات غير المصنفة",
+    "skip_unknown_tooltip": "تخطي الملفات ذات الامتدادات غير الموجودة في أي فئة (بدلاً من نقلها إلى Others)",
+    "run": "تشغيل",
+    "cancel": "إلغاء",
+    "open_dest": "فتح الوجهة",
+    "log": "السجل",
+    "scanning": "جارٍ البحث عن الملفات...",
+    "starting": "جارٍ التنظيم...",
+    "cancelling": "جارٍ الإلغاء...",
+    "cancelled": "تم إلغاء العملية.",
+    "done": "اكتمل!",
+    "ready": "جاهز",
+    "error": "خطأ",
+    "invalid_source": "المجلد المصدر غير صالح أو غير موجود.",
+    "summary": "الملخص -> الإجمالي: {total}، نجح: {succeeded}، تم تخطيه: {skipped}، فشل: {failed}",
+    "manage_categories": "إدارة التصنيفات",
+    "undo": "تراجع",
+    "categories": "التصنيفات",
+    "extensions": "الامتدادات",
+    "add": "إضافة",
+    "rename": "إعادة تسمية",
+    "remove": "حذف",
+    "save_and_close": "حفظ وإغلاق",
+    "add_category": "إضافة تصنيف جديد",
+    "category_name": "اسم التصنيف:",
+    "rename_category": "إعادة تسمية التصنيف",
+    "new_name": "الاسم الجديد:",
+    "confirm_delete": "تأكيد الحذف",
+    "confirm_delete_cat_msg": "هل أنت متأكد من حذف التصنيف '{0}' وجميع امتداداته؟",
+    "add_extension": "إضافة امتداد جديد",
+    "extension_name": "الامتداد (مثال: .txt):",
+    "success": "نجاح",
+    "categories_saved": "تم حفظ التصنيفات بنجاح.",
+    "categories_save_error": "خطأ في حفظ التصنيفات.",
+    "results": "النتائج",
+    "original_file": "اسم الملف",
+    "new_path": "المسار الجديد",
+    "status": "الحالة",
+    "confirm_undo": "تأكيد التراجع",
+    "confirm_undo_msg": "سيحاول هذا الإجراء إعادة نقل ملفات العملية الأخيرة إلى مواقعها الأصلية. لا يمكن التراجع عن هذه الخطوة. هل تريد المتابعة؟",
+    "undo_complete": "اكتمل التراجع",
+    "undo_summary": "ملخص التراجع -> الإجمالي: {total}، نجح: {succeeded}، فشل: {failed}",
+    "source_dest_title": "المصدر والوجهة",
+    "options_title": "الخيارات",
+    "exit": "خروج",
+    "source_tooltip": "اختر أو اسحب وأفلت المجلد الذي تريد تنظيمه.",
+    "dest_tooltip": "اختياري. اتركه فارغًا لإنشاء مجلد 'Organized_Files' داخل المصدر.",
+    "run_tooltip": "بدء عملية التنظيم (Ctrl+R)",
+    "cancel_tooltip": "إيقاف العملية الحالية",
+    "mode_tooltip": "اختر طريقة تجميع الملفات.",
+    "action_tooltip": "اختر ما سيتم فعله بالملفات الأصلية.",
+    "conflict_tooltip": "حدد ما يجب فعله إذا كان ملف بنفس الاسم موجودًا بالفعل.",
+    "file_menu": "&ملف",
+    "edit_menu": "&تعديل",
+    "view_menu": "&عرض",
+    "profiles_menu": "&ملفات التعريف",
+    "theme": "المظهر",
+    "light": "فاتح",
+    "dark": "داكن",
+    "save_profile": "حفظ كملف تعريف...",
+    "manage_profiles": "إدارة ملفات التعريف...",
+    "profile_name_prompt": "أدخل اسمًا لملف التعريف هذا:",
+    "manage_profiles_title": "إدارة ملفات التعريف",
+    "confirm_delete_profile_msg": "هل أنت متأكد من حذف ملف التعريف '{0}'؟",
+    "schedule": "جدولة...",
+    "schedule_info_title": "ميزة غير متوفرة حاليًا",
+    "schedule_info_msg": "الجدولة التلقائية ومراقبة المجلدات هي ميزة مخطط لها في المستقبل.",
+    "open_file": "فتح الملف",
+    "open_folder": "فتح المجلد الحاوي",
+    "mode_type": "حسب النوع",
+    "mode_type_desc": "يجمع الملفات في مجلدات حسب فئتها (مثل: صور، فيديوهات).",
+    "mode_name": "حسب الاسم",
+    "mode_name_desc": "ينشئ مجلدًا لكل ملف باسم الملف نفسه (بدون امتداد).",
+    "mode_date": "حسب التاريخ",
+    "mode_date_desc": "يجمع الملفات في مجلدات حسب السنة والشهر (مثال: 2023/10-أكتوبر).",
+    "mode_size": "حسب الحجم",
+    "mode_size_desc": "يجمع الملفات في مجلدات مثل 'صغيرة'، 'متوسطة'، 'كبيرة'.",
+    "mode_first_letter": "حسب الحرف الأول",
+    "mode_first_letter_desc": "يجمع الملفات في مجلدات حسب الحرف الأول من اسمها (أ، ب، ت...).",
+    "mode_day": "حسب اليوم",
+    "mode_day_desc": "يجمع الملفات في مجلدات حسب السنة والشهر واليوم (مثال: 2023/10/26).",
+    "action_move": "نقل",
+    "action_copy": "نسخ",
+    "conflict_rename": "إعادة تسمية",
+    "conflict_skip": "تخطي",
+    "conflict_overwrite": "استبدال",
+    "auto_detect": "اكتشاف تلقائي",
+    "auto_detect_tip": "فحص مجلد لاكتشاف امتدادات الملفات الجديدة",
+    "bulk_add": "إضافة متعددة",
+    "bulk_add_tip": "إضافة عدة امتدادات دفعة واحدة",
+    "bulk_add_title": "إضافة امتدادات متعددة",
+    "bulk_add_info": "أدخل الامتدادات (واحد في كل سطر أو مفصولة بفواصل):",
+    "import": "استيراد",
+    "export": "تصدير",
+    "reset_defaults": "إعادة تعيين",
+    "reset_defaults_tip": "إعادة التعيين للإعدادات الافتراضية",
+    "search_placeholder": "بحث في الفئات والامتدادات... (Ctrl+F)",
+    "quick_add_placeholder": "اكتب الامتداد واضغط Enter...",
+    "move_to": "نقل إلى...",
+    "select_category_first": "الرجاء اختيار فئة أولاً!",
+    "extension_exists": "الامتداد موجود بالفعل في هذه الفئة!",
+    "extension_exists_other": "الامتداد موجود",
+    "move_extension_msg": "الامتداد {0} موجود في '{1}'. هل تريد نقله إلى '{2}'؟",
+    "no_other_categories": "لا توجد فئات أخرى متاحة!",
+    "select_target_category": "اختر الفئة المستهدفة:",
+    "auto_detect_title": "اكتشاف تلقائي للامتدادات",
+    "folder": "المجلد:",
+    "select_folder": "اختر مجلداً للفحص...",
+    "include_subfolders": "شمل المجلدات الفرعية",
+    "show_new_only": "إظهار الامتدادات الجديدة فقط",
+    "scan": "فحص",
+    "scan_progress": "تم فحص {current} من {total} ملف...",
+    "scan_complete": "اكتمل الفحص!",
+    "detected_extensions": "الامتدادات المكتشفة",
+    "filter": "تصفية:",
+    "type_to_filter": "اكتب للتصفية...",
+    "select_all": "تحديد الكل",
+    "deselect_all": "إلغاء تحديد الكل",
+    "add_selected": "إضافة المحدد",
+    "extension_stats": "الإجمالي: {total} | جديد: {new}",
+    "extensions_found": "تم العثور على {count} امتداد",
+    "add_all": "إضافة الكل",
+    "help_title": "مساعدة محرر الفئات",
+    "quick_start": "البداية السريعة",
+    "shortcuts": "الاختصارات",
+    "tips": "نصائح",
+    "close": "إغلاق",
+    "change_color": "تغيير اللون",
+    "confirm_reset": "تأكيد إعادة التعيين",
+    "confirm_reset_msg": "سيؤدي هذا إلى إعادة تعيين جميع الفئات للإعدادات الافتراضية. هل تريد المتابعة؟",
+    "import_settings": "استيراد الإعدادات",
+    "export_settings": "تصدير الإعدادات",
+    "settings_imported": "تم استيراد الإعدادات بنجاح!",
+    "settings_exported": "تم تصدير الإعدادات بنجاح!",
+    "import_error": "فشل الاستيراد: {0}",
+    "export_error": "فشل التصدير: {0}",
+    "save_error": "فشل الحفظ: {0}",
+    "statistics": "📊 {cats} فئة | {exts} امتداد",
+    "showing_of": "عرض {count} من {total}",
+    "extension_count": "{count} امتداد",
+    "extensions_added": "تمت إضافة {0} امتداد",
+    "select_category": "اختر الفئة",
+    "add_extensions_to": "إضافة الامتدادات إلى:",
+    "invalid_folder": "الرجاء اختيار مجلد صالح",
+    "delete": "حذف",
+    "help": "مساعدة",
+    "category_exists": "الفئة موجودة بالفعل!",
+    "cannot_delete_others": "لا يمكن حذف فئة 'Others'. هذه الفئة مطلوبة للملفات غير المصنفة."
+  }
+}
