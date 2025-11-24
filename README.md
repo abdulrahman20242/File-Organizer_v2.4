@@ -1,5 +1,3 @@
-# 📝 ملف README.md الكامل
-
 ```markdown
 # 📂 Sortify - Advanced File Organizer
 
@@ -326,3 +324,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   Made with ❤️ for organizing chaos into order
 </p>
 ```
+
