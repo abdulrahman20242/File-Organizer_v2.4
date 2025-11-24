@@ -1,4 +1,3 @@
-```markdown
 # 📂 Sortify - Advanced File Organizer
 
 A powerful and user-friendly desktop application built with Python and PySide6 to intelligently sort your files into clean, organized folders.
@@ -236,3 +235,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 
 ---
+
