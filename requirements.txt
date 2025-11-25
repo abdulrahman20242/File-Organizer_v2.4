@@ -1,3 +1,13 @@
-PySide6
-qtawesome
-qdarktheme
+# ══════════════════════════════════════════════════════════════
+#                    File Organizer Pro
+#                    Main Dependencies
+# ══════════════════════════════════════════════════════════════
+
+# Qt GUI Framework
+PySide6>=6.5.0
+
+# Icon Library (Font Awesome icons)
+QtAwesome>=1.2.0
+
+# Dark/Light Theme Support
+pyqtdarktheme>=2.1.0
