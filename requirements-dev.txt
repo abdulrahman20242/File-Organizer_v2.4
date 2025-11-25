@@ -1,1 +1,13 @@
-pytest
+# ══════════════════════════════════════════════════════════════
+#                    File Organizer Pro
+#                 Development Dependencies
+# ══════════════════════════════════════════════════════════════
+
+# Include main dependencies
+-r requirements.txt
+
+# Testing Framework
+pytest>=7.0.0
+
+# Test Coverage
+pytest-cov>=4.0.0
